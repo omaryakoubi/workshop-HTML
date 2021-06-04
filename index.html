@@ -7,13 +7,61 @@
     <title>Workshop HTML</title>
 </head>
 <body>
+    <h1>Portfolio</h1>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Resume</li>
-            <li>Contact</li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
+    
+    <main>
+        
+        <section>
+            <a name="Home"></a>
+            <h1>Home</h1>
+            <iframe 
+                width="560" 
+                height="315"
+                src="https://www.youtube.com/embed/tS8nzAQg_8k"
+                title="YouTube video player"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            
+        </section>
+        
+        <section>
+            <a name="About"></a>
+            <h1>About</h1>
+            <p>Hello I'am Omar Yakoubi</p>
+            <p>A Full Stack Web Developer</p>
+        </section>
+        
+        <section>
+            <a name="Resume"></a>
+            <h1>Resume</h1>
+            <img src="assets/img.jpg" alt="porfolio-img">
+        </section>
+        
+        <section>
+            <a name="Contact"></a>
+            <h1>Contact</h1>
+            <form>
+                <label for="name">Your Name: </label>
+                <input type="text" placeholder="name"> <br> <br>
+                <label for="email">Your Email: </label>
+                <input type="email" placeholder="email"> <br> <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Made with ❤️ by Omar Yakoubi</p>
+    </footer>
 </body>
 </html>
